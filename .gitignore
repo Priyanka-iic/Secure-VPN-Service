@@ -1,0 +1,12 @@
+# Ignore all certificates and private keys
+*.pem
+*.key
+
+# Ignore all configuration files
+*.conf
+
+# EXCEPT for this specific example configuration file
+!configs/client-config.example.conf
+
+# Ignore the main environment file and any variations
+.env*
